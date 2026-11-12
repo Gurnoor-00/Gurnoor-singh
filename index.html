@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student developer portfolio showcasing skills, projects and experience.">
+  <title>My Portfolio | Student Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">Portfolio<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Toggle navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero container">
+      <div class="hero-content">
+        <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+        <h1>Hi, I'm <span>Your Name</span></h1>
+
+        <h2>I'm a Student &amp; <span class="typing">Web Developer</span></h2>
+
+        <p class="hero-description">
+          I am a passionate student who loves building modern,
+          creative and user-friendly websites. I enjoy learning
+          new technologies and turning ideas into reality.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">Explore Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="window-dots">
+            <i></i><i></i><i></i>
+          </div>
+          <pre><code><span class="pink">const</span> developer = {
+  name: <span class="green">"Your Name"</span>,
+  role: <span class="green">"Student"</span>,
+  skills: [
+    <span class="green">"HTML"</span>,
+    <span class="green">"CSS"</span>,
+    <span class="green">"JavaScript"</span>
+  ],
+  passion: <span class="green">"Building ideas"</span>,
+  available: <span class="blue">true</span>
+};
+
+<span class="purple">console</span>.log(developer);</code></pre>
+        </div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-avatar">👨‍💻</div>
+        <div>
+          <h3>Aspiring Developer &amp; Lifelong Learner</h3>
+          <p>
+            Hello! I am a student interested in web development
+            and technology. I enjoy creating beautiful websites
+            using HTML, CSS and JavaScript.
+          </p>
+          <p>
+            My goal is to improve my programming skills, work
+            on meaningful projects and become a professional
+            software developer.
+          </p>
+          <div class="about-details">
+            <p><strong>Name:</strong> Your Name</p>
+            <p><strong>Education:</strong> Your Degree / Course</p>
+            <p><strong>Location:</strong> Your City, India</p>
+            <p><strong>Email:</strong> your.email@example.com</p>
+          </div>
+          <a href="resume.pdf" class="btn btn-primary" download>
+            Download Resume ↓
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I KNOW</p>
+          <h2>My <span>Skills</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">🌐</div>
+            <h3>HTML5</h3>
+            <p>Semantic and accessible web structure.</p>
+            <div class="progress"><span style="width:85%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🎨</div>
+            <h3>CSS3</h3>
+            <p>Responsive layouts and modern styling.</p>
+            <div class="progress"><span style="width:75%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>Interactive and dynamic web experiences.</p>
+            <div class="progress"><span style="width:65%"></span></div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">🐙</div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Version control and project hosting.</p>
+            <div class="progress"><span style="width:65%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">MY RECENT WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-one">01</div>
+          <div class="project-info">
+            <p class="project-type">WEB DEVELOPMENT</p>
+            <h3>Personal Portfolio</h3>
+            <p>A responsive personal website to showcase my skills and work.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/YOUR-USERNAME/portfolio"
+               target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-two">02</div>
+          <div class="project-info">
+            <p class="project-type">JAVASCRIPT</p>
+            <h3>To-Do List App</h3>
+            <p>A simple task manager to organize everyday activities.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <a href="https://github.com/YOUR-USERNAME/todo-app"
+               target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-three">03</div>
+          <div class="project-info">
+            <p class="project-type">WEB DESIGN</p>
+            <h3>Landing Page</h3>
+            <p>A modern responsive landing page with a clean design.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>Responsive</span>
+            </div>
+            <a href="https://github.com/YOUR-USERNAME/landing-page"
+               target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-container">
+        <div class="section-heading">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Contact <span>Me</span></h2>
+          <p>Have an opportunity or project idea? Let's talk!</p>
+        </div>
+
+        <div class="contact-card">
+          <div>
+            <span>✉️</span>
+            <h3>Email Me</h3>
+            <a href="mailto:your.email@example.com">
+              your.email@example.com
+            </a>
+          </div>
+          <div>
+            <span>🐙</span>
+            <h3>GitHub</h3>
+            <a href="https://github.com/YOUR-USERNAME"
+               target="_blank" rel="noopener noreferrer">
+              Visit my GitHub
+            </a>
+          </div>
+          <div>
+            <span>💼</span>
+            <h3>LinkedIn</h3>
+            <a href="https://linkedin.com/in/YOUR-PROFILE"
+               target="_blank" rel="noopener noreferrer">
+              Connect with me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Your Name. Built with ❤️ using HTML, CSS &amp; JavaScript.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
